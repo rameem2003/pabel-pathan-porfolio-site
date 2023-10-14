@@ -77,6 +77,20 @@ nav {
   padding: 15px 0 !important;
 }
 
+nav .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+nav .navbar-toggler .tog {
+  color: white;
+  font-size: 22px;
+}
+
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+
 nav .nav-item {
   margin-left: 33px;
 }
@@ -192,11 +206,10 @@ nav .nav-link:focus {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  padding: 50px;
+  padding-left: 50px;
 }
 
 #about h1 {
-  width: 307px;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -204,7 +217,7 @@ nav .nav-link:focus {
 }
 
 #about p {
-  width: 657px;
+  max-width: 657px;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -431,3 +444,59 @@ footer p {
   margin: 0;
 }
 /* footer end */
+
+/* responsive start */
+
+@media screen and (max-width: 992px) {
+  .button {
+    margin: 0 auto;
+  }
+
+  #banner .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  #banner .right {
+    display: none;
+  }
+
+  #about .left {
+    text-align: center;
+  }
+
+  #about .text-area {
+    padding: 0;
+    text-align: center;
+  }
+
+  #about .text-area h1 {
+    width: 100%;
+    text-align: center !important;
+  }
+
+  #about p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #services .item {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #education .edu-list {
+    margin: 0;
+  }
+
+  #education .edu-card {
+    margin: 20px auto;
+  }
+
+  footer p {
+    text-align: center;
+  }
+}
+
+/* responsive end */
