@@ -26,6 +26,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  outline: none;
 }
 .button-extented {
   width: 200px;
@@ -37,6 +39,10 @@
 }
 .button-orange {
   background-color: var(--textOrange);
+  color: white;
+}
+.button-tranparent {
+  background-color: #43366a;
   color: white;
 }
 
@@ -245,3 +251,183 @@ nav .nav-link:focus {
   line-height: normal;
 }
 /* services end */
+
+/* skills start */
+#skills {
+  background-color: var(--bacckGroudColor1);
+  color: white;
+  padding-top: 76px;
+  padding-bottom: 171px;
+}
+
+#skills .skill-progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #43366a;
+  display: flex;
+  align-items: center;
+}
+
+#skills .skill-progress .progress-inner {
+  height: 10px;
+  border-radius: 10px;
+  background-color: var(--textOrange);
+}
+
+.wd-90 {
+  width: 90%;
+}
+.wd-80 {
+  width: 80%;
+}
+.wd-70 {
+  width: 70%;
+}
+.wd-60 {
+  width: 60%;
+}
+
+#skills .slill-list {
+  margin-bottom: 41px;
+}
+
+#skills h2 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+/* skills end */
+
+/* education start */
+#education {
+  background-color: var(--bacckGroudColor2);
+  color: white;
+  padding-top: 76px;
+  padding-bottom: 171px;
+}
+
+#education .edu-card {
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px 20px;
+}
+
+#education .edu-card .pill-orange {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--textOrange);
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#education .edu-card h1 {
+  color: var(--bacckGroudColor1);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 33px 0;
+}
+
+#education .edu-card h3 {
+  color: var(--textOrange);
+  font-family: Exo 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#education .edu-list {
+  margin-bottom: 33px;
+}
+
+/* education end */
+
+/* contact start */
+#contact {
+  background-color: var(--bacckGroudColor1);
+  color: white;
+  padding-top: 102px;
+  padding-bottom: 124px;
+}
+
+#contact .call {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+
+#contact .call p {
+  margin: 0;
+  padding: 0;
+  margin-left: 32px;
+}
+
+#contact input {
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #43366a;
+  border: none;
+  outline: none;
+  margin-bottom: 18px;
+}
+
+#contact input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 11px 27px;
+}
+
+#contact textarea {
+  width: 100%;
+  height: 148px;
+  border-radius: 20px;
+  background-color: #43366a;
+  border: none;
+  outline: none;
+  margin-bottom: 18px;
+}
+
+#contact textarea::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 11px 27px;
+}
+/* contact end */
+
+/* footer start */
+footer {
+  background-color: var(--bacckGroudColor2);
+  color: white;
+  padding: 39px 0;
+}
+
+footer p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+/* footer end */
