@@ -180,6 +180,12 @@ nav .nav-link:focus {
   color: white;
   border-radius: 50%;
   border: 2px solid white;
+  transition: 0.4s;
+}
+
+#banner .links a:hover {
+  background-color: white;
+  color: var(--textOrange);
 }
 
 #banner .button {
